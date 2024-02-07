@@ -9,10 +9,13 @@ class Animal:
 
 # An example class representing a bird
 class Bird(Animal):
-    noise = "tweet"
+    noise = "TWEET"
 
     def fly(self):
         pass
+
+class Crow(Bird):
+    noise = "CAW"
 
 # Add another animal below.  Come up with something unique
 # Feel free to add functions or whatever you want.  If you don't feel
