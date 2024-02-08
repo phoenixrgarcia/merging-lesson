@@ -23,6 +23,11 @@ class Dog(Animal):
     def fetch(self):
         pass
 
+class Jack(Animal):
+    noise = "GIT CLONE <USERNAME> MERGE LESSON"
+
+    def fetch(self):
+        pass
 # Add another animal below.  Come up with something unique
 # Feel free to add functions or whatever you want.  If you don't feel
 # confident in your python, you just copy and paste the bird and change
